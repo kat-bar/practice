@@ -14,6 +14,7 @@
 .header {
   border-top: 5px solid rgb(149, 156, 199);
   padding-left: 10px;
+
 }
 .nav-meny {
   font-weight: 400;
@@ -99,7 +100,7 @@ header > .container {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 footer {
-  background-color: #f4edf2;
+  background-color: rgb(149, 156, 199);
 }
 .copyright_text {
   padding: 15px 0px;
