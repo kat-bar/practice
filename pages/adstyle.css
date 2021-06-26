@@ -64,7 +64,7 @@ nav a {
   color: rgb(149, 156, 199); /* Цвет текста */
   background: rgb(255, 255, 255); /* Цвет фона */
   padding: 4px; /* Поля вокруг текста */
-  transition: 1s linear; /* Время изменения */
+  transition: 0.3s linear; /* Время изменения */
   align-items: center;
   justify-content: center;
 }
@@ -145,7 +145,7 @@ h3 {
   color: rgb(149, 156, 199); /* Цвет текста */
   background: rgb(255, 255, 255); /* Цвет фона */
   padding: 2px; /* Поля вокруг текста */
-  transition: 1s linear; /* Время изменения */
+  transition: 0.3s linear; /* Время изменения */
   text-decoration: none;
   font-size: 18px;
   text-align: center;
