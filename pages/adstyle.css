@@ -30,7 +30,7 @@
   max-width: 1170px;
   margin: 0 auto;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 .header {
   border-top: 5px solid rgb(149, 156, 199);
@@ -52,7 +52,7 @@ nav ul li {
   list-style: none;
   padding-right: 15px;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 nav ul li:last-child {
   padding-right: 0;
@@ -66,12 +66,12 @@ nav a {
   padding: 4px; /* Поля вокруг текста */
   transition: 1s linear; /* Время изменения */
   align-items: center;
-  justify-content: center 
- }
- nav a:hover {
+  justify-content: center;
+}
+nav a:hover {
   color: rgb(255, 255, 255); /* Цвет текста */
   background: rgb(149, 156, 199); /* Цвет фона */
- }
+}
 header > .container {
   height: 100px;
   display: flex;
@@ -106,28 +106,16 @@ h1 {
   font-size: 45px;
   margin-top: 30px;
 }
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-  display: flex;
+.single_product_content{
+  text-align: center;
 }
-
 .justify-content-between {
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
   margin-bottom: 30px;
-  margin-top: 150px;
+  margin-top: 70px;
 }
-.single_product_list .single_product_img {
-  position: relative;
-  margin: 35px 0 0 35px;
-}
-.single_product_list .single_product_img .product_overlay {
-  position: absolute;
-  left: -35px;
-  top: -35px;
-  z-index: -1;
-}
+
 h3 {
   text-align: center;
 }
@@ -141,14 +129,7 @@ h3 {
   margin-left: 20px;
   margin-right: 50px;
 }
-img.img-fluid {
-  height: auto;
-  width: 600px;
-}
-img.product_overlay.img-fluid {
-  height: 450px;
-  width: auto;
-}
+
 .toc {
   margin: 0;
   padding: 0;
@@ -159,8 +140,8 @@ img.product_overlay.img-fluid {
   display: flex;
   list-style: none;
   margin-bottom: 80px;
- }
- .toc a {
+}
+.toc a {
   color: rgb(149, 156, 199); /* Цвет текста */
   background: rgb(255, 255, 255); /* Цвет фона */
   padding: 2px; /* Поля вокруг текста */
@@ -168,29 +149,28 @@ img.product_overlay.img-fluid {
   text-decoration: none;
   font-size: 18px;
   text-align: center;
- }
- .toc a:hover {
+}
+.toc a:hover {
   color: rgb(255, 255, 255); /* Цвет текста */
   background: rgb(149, 156, 199); /* Цвет фона */
   text-decoration: none;
   font-size: 18px;
   text-align: center;
-  
- }
- ul{
+}
+ul {
   display: flex;
   list-style: none;
   margin-left: 20px;
   text-align: center;
- }
- ul li{
+}
+ul li {
   margin-left: 20px;
   font-family: "Noto Sans", sans-serif;
- }
- 
- div.scrollup {
+}
+
+div.scrollup {
   position: fixed; /* фиксированная позиция */
-  color: #fff; /* цвет текста */
+  color: rgb(8, 0, 0); /* цвет текста */
   background-color: #286090; /* цвет заднего фона */
   right: 20px; /* расстояние от правого края */
   bottom: 0px; /* расстояние от нижнего края */
@@ -205,7 +185,26 @@ img.product_overlay.img-fluid {
 div.scrollup:hover {
   background-color: #000; /* цвет заднего фона при наведении */
 }
-
+img{
+  width: 100%;
+}
+table {
+  width: 100%; /* Ширина таблицы */
+  border: 4px double black; /* Рамка вокруг таблицы */
+  border-collapse: collapse; /* Отображать только одинарные линии */
+}
+th {
+  text-align: center; /* Выравнивание по левому краю */
+  background: rgb(149, 156, 199); /* Цвет фона ячеек */
+  padding: 5px; /* Поля вокруг содержимого ячеек */
+  border: 1px solid black; /* Граница вокруг ячеек */
+}
+td {
+  padding: 5px; /* Поля вокруг содержимого ячеек */
+  border: 1px solid black; /* Граница вокруг ячеек */
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
 footer {
   background-color: rgb(149, 156, 199);
 }

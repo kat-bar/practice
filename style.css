@@ -38,6 +38,16 @@ nav ul li:last-child {
 nav ul {
   display: flex;
 }
+nav a {
+  color: rgb(149, 156, 199); /* Цвет текста */
+  background: rgb(255, 255, 255); /* Цвет фона */
+  padding: 4px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+ }
+ nav a:hover {
+  color: rgb(255, 255, 255); /* Цвет текста */
+  background: rgb(149, 156, 199); /* Цвет фона */
+ }
 header > .container {
   height: 100px;
   display: flex;
