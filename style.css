@@ -24,10 +24,12 @@
   color: black;
   display: block;
 }
+
 .logo {
   height: auto;
   width: 300px;
 }
+
 nav ul li {
   list-style: none;
   padding-right: 15px;
