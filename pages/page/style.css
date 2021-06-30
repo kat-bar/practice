@@ -23,24 +23,6 @@
   border-radius: 4px;
 }
 
-.dropbtn {
-  background-color: rgb(149, 156, 199);
-  color: rgb(10, 4, 4);
-  padding: 16px;
-  margin-left: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 45px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-
-.dropdown:hover .dropbtn {background-color: #b18faf;}
-
 #myBtn:hover {
   background-color: #555;
 }
@@ -124,7 +106,7 @@ h1 {
   font-size: 45px;
   margin-top: 30px;
 }
-.single_product_content{
+.single_product_content {
   text-align: center;
 }
 .justify-content-between {
@@ -148,34 +130,6 @@ h3 {
   margin-right: 50px;
 }
 
-.toc {
-  margin: 0;
-  padding: 0;
-  padding: 0 20px;
-  display: inline-block;
-  margin: 0 auto;
-  display: flex;
-  list-style: none;
-  margin-bottom: 80px;
-}
-.toc a {
-  color: rgb(6, 6, 8); /* Цвет текста */
-  background: rgb(149, 156, 199); /* Цвет фона */
-  padding: 2px; /* Поля вокруг текста */
-  transition: 0.3s linear; /* Время изменения */
-  text-decoration: none;
-  font-size: 18px;
-  text-align: center;
-  border-radius: 45px;
-}
-.toc a:hover {
-  color: rgb(4, 5, 12); /* Цвет текста */
-  background: #b18faf; /* Цвет фона */
-  text-decoration: none;
-  font-size: 18px;
-  text-align: center; 
-  box-shadow: 0px 0px 0px 5px #b18faf;
-}
 ul {
   display: flex;
   list-style: none;
@@ -187,24 +141,7 @@ ul li {
   font-family: "Noto Sans", sans-serif;
 }
 
-div.scrollup {
-  position: fixed; /* фиксированная позиция */
-  color: rgb(8, 0, 0); /* цвет текста */
-  background-color: #286090; /* цвет заднего фона */
-  right: 20px; /* расстояние от правого края */
-  bottom: 0px; /* расстояние от нижнего края */
-  padding: 4px 10px; /* отступы до содержимого блока */
-  font-size: 20px; /* размер шрифта (иконки) */
-  border-top-left-radius: 4px; /* скругление верхнего левого угла */
-  border-top-right-radius: 4px; /* скругление верхнего правого угла */
-  cursor: pointer; /* форма курсора */
-  display: none; /* не отображать элемент */
-  text-align: center; /*выравнивание содержимого элемента по центру */
-}
-div.scrollup:hover {
-  background-color: #000; /* цвет заднего фона при наведении */
-}
-img{
+img {
   width: 100%;
 }
 table {
@@ -224,8 +161,154 @@ td {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
 }
-footer {
+.local {
+  text-align: center;
+  margin: 70px;
+  padding-left: 20px;
+}
+.cont {
   background-color: rgb(149, 156, 199);
+  
+}
+.block {
+  text-align: center;
+  display: flex;
+  margin-left: 100px;
+  background-color: rgb(149, 156, 199);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+.img {
+  text-align: center;
+  width: 70px;
+  margin-left: 70px;
+  justify-content: space-between;
+}
+ol{
+  list-style-position: inside;
+}
+.com{
+ 
+  background-color: rgb(210, 214, 240);
+}
+*{
+  box-sizing: border-box;
+}
+
+
+ 
+  .decor {
+    position: relative;
+    max-width: 1000px;
+    margin: 50px auto 0;
+    background: rgb(149, 156, 199);
+    border-radius: 30px;
+ }
+ .form-left-decoration, .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: rgb(149, 156, 199);
+    border-radius: 20px;
+ }
+ .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+ }
+ .form-right-decoration {
+    top: 60px;
+    right: -30px;
+ }
+ .form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+ }
+ .form-left-decoration:before {
+    top: -20px;
+ }
+ .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+ }
+ .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+ }
+ .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+ }
+ .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+ }
+ .form-inner {
+    padding: 50px;
+  
+ }
+ .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: rgb(59, 52, 150);
+    border-bottom: 4px solid rgb(59, 52, 150);
+    color: white;
+    font-size: 14px;
+ }
+ .form-inner textarea {
+    resize: none;
+ }
+ .form-inner h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+ }
+
+#but {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-right: 1100px;
+}
+footer {
+  background-color: rgb(135, 140, 168);
 }
 .copyright_text {
   padding: 15px 0px;
