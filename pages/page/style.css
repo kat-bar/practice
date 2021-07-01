@@ -23,6 +23,13 @@
   border-radius: 4px;
 }
 
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
 #myBtn:hover {
   background-color: #555;
 }
@@ -75,6 +82,7 @@ nav a:hover {
 header > .container {
   height: 100px;
   display: flex;
+  font-size: 14.5px;
 }
 .banner {
   overflow-x: hidden;
@@ -141,7 +149,7 @@ ul li {
   font-family: "Noto Sans", sans-serif;
 }
 
-img {
+ th img {
   width: 100%;
 }
 table {

@@ -25,6 +25,14 @@
   display: block;
 }
 
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
+
 .logo {
   height: auto;
   width: 300px;

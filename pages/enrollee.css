@@ -21,6 +21,13 @@
   padding: 15px;
   border-radius: 4px;
 }
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
 .dropbtn {
   background-color: rgb(149, 156, 199);
   color: rgb(10, 4, 4);
@@ -110,6 +117,7 @@ nav a {
 header > .container {
   height: 100px;
   display: flex;
+  font-size: 14.5px;
 }
 .banner {
   overflow-x: hidden;

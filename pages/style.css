@@ -23,6 +23,13 @@
   border-radius: 4px;
 }
 
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
 .dropbtn {
   background-color: rgb(149, 156, 199);
   color: rgb(10, 4, 4);
@@ -47,8 +54,7 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center; 
+  
 }
 .header {
   border-top: 5px solid rgb(149, 156, 199);
@@ -93,6 +99,9 @@ nav a {
 header > .container {
   height: 100px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14.5px;
 }
 .banner {
   overflow-x: hidden;
